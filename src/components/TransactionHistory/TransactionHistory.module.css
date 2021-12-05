@@ -1,0 +1,26 @@
+.table {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  border-spacing: 1px;
+  background-color: rgb(224, 243, 227);
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgb(180, 180, 180);
+  line-height: 40px;
+}
+
+.header {
+  background-color: rgb(107, 107, 107);
+  color: #fff;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+td {
+  color: grey;
+}
+
+tbody:nth-child(2n) {
+  background-color: rgb(236, 255, 239);
+}
